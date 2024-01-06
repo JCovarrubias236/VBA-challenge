@@ -19,6 +19,7 @@ Sub StockSummary()
     
     
     'Loop through all the worksheets in the workbook
+    'https://excelchamps.com/vba/loop-sheets/#:~:text=1%20First%2C%20declare%20a%20variable%20to%20refer%20to,use%20the%20keyword%20%E2%80%9CEnd%E2%80%9D%20to%20end%20the%20loop.
     For Each ws In ThisWorkbook.worksheets
     
         'find last row for easier readability
